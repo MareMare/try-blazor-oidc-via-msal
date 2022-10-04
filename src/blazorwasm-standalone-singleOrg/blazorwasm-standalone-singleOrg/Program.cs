@@ -14,6 +14,7 @@ builder.Services.AddMsalAuthentication(options =>
 {
     builder.Configuration.Bind("AzureAd", options.ProviderOptions.Authentication);
     options.ProviderOptions.DefaultAccessTokenScopes.Add("https://graph.microsoft.com/User.Read");
+    options.ProviderOptions.LoginMode = "redirect"; // 既定は "popup"
 });
 
 await builder.Build().RunAsync();
