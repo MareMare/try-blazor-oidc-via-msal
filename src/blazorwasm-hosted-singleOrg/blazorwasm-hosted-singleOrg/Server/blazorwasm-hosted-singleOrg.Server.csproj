@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>blazorwasm-hosted-singleOrg.Server-B761337D-89FB-4A61-993F-E5325CC2B1B2</UserSecretsId>
+    <UserSecretsId>blazorwasm-hosted-singleOrg.Server-6890870C-233D-4A42-BCE0-1DF7CA810A88</UserSecretsId>
     <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
     <RootNamespace>blazorwasm-hosted-singleOrg.Server</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>

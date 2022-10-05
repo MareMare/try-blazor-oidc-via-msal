@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Server", "blazorwasm-hosted-singleOrg\Server\blazorwasm-hosted-singleOrg.Server.csproj", "{3D4CBB0F-F9A4-4A9E-A719-F5322E74AA8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Server", "blazorwasm-hosted-singleOrg\Server\blazorwasm-hosted-singleOrg.Server.csproj", "{53775743-B7AE-4BC9-B3EA-F9CCE2817C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Client", "blazorwasm-hosted-singleOrg\Client\blazorwasm-hosted-singleOrg.Client.csproj", "{90794F0B-5227-4D78-8EAF-2F4FC48E649B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Client", "blazorwasm-hosted-singleOrg\Client\blazorwasm-hosted-singleOrg.Client.csproj", "{17D91C9A-3A05-48E4-8547-C7FB495543F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Shared", "blazorwasm-hosted-singleOrg\Shared\blazorwasm-hosted-singleOrg.Shared.csproj", "{9FED7B89-5FE2-426C-9F83-37A9372847FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorwasm-hosted-singleOrg.Shared", "blazorwasm-hosted-singleOrg\Shared\blazorwasm-hosted-singleOrg.Shared.csproj", "{2C55E93D-4C8A-4065-BF65-A7847AAD1397}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D4CBB0F-F9A4-4A9E-A719-F5322E74AA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D4CBB0F-F9A4-4A9E-A719-F5322E74AA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D4CBB0F-F9A4-4A9E-A719-F5322E74AA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D4CBB0F-F9A4-4A9E-A719-F5322E74AA8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90794F0B-5227-4D78-8EAF-2F4FC48E649B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90794F0B-5227-4D78-8EAF-2F4FC48E649B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90794F0B-5227-4D78-8EAF-2F4FC48E649B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90794F0B-5227-4D78-8EAF-2F4FC48E649B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FED7B89-5FE2-426C-9F83-37A9372847FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FED7B89-5FE2-426C-9F83-37A9372847FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FED7B89-5FE2-426C-9F83-37A9372847FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FED7B89-5FE2-426C-9F83-37A9372847FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53775743-B7AE-4BC9-B3EA-F9CCE2817C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53775743-B7AE-4BC9-B3EA-F9CCE2817C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53775743-B7AE-4BC9-B3EA-F9CCE2817C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53775743-B7AE-4BC9-B3EA-F9CCE2817C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D91C9A-3A05-48E4-8547-C7FB495543F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D91C9A-3A05-48E4-8547-C7FB495543F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D91C9A-3A05-48E4-8547-C7FB495543F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D91C9A-3A05-48E4-8547-C7FB495543F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C55E93D-4C8A-4065-BF65-A7847AAD1397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C55E93D-4C8A-4065-BF65-A7847AAD1397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C55E93D-4C8A-4065-BF65-A7847AAD1397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C55E93D-4C8A-4065-BF65-A7847AAD1397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
