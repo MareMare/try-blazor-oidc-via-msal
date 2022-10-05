@@ -1,6 +1,28 @@
 ﻿@page "/authentication/{action}"
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
-<RemoteAuthenticatorView Action="@Action" />
+@attribute [AllowAnonymous]
+
+@*
+    NOTE: https://learn.microsoft.com/ja-jp/aspnet/core/blazor/security/webassembly/additional-scenarios?view=aspnetcore-3.1#customize-the-authentication-user-interface-2
+*@
+<RemoteAuthenticatorView Action="@Action">
+    @*
+    <LoggingIn>
+    </LoggingIn>
+    <CompletingLoggingIn>
+    </CompletingLoggingIn>
+    <LogInFailed>
+    </LogInFailed>
+    <LogOut>
+    </LogOut>
+    <CompletingLogOut>
+    </CompletingLogOut>
+    <LogOutFailed>
+    </LogOutFailed>
+    <LogOutSucceeded>
+    </LogOutSucceeded>
+    *@
+</RemoteAuthenticatorView>
 
 @code{
     [Parameter] public string? Action { get; set; }
