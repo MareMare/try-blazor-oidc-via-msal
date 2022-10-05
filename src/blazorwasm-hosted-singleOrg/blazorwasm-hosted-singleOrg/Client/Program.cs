@@ -1,4 +1,4 @@
-using blazorwasm_hosted_singleOrg.Client;
+﻿using blazorwasm_hosted_singleOrg.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -19,6 +19,7 @@ builder.Services.AddMsalAuthentication(options =>
 {
     builder.Configuration.Bind("AzureAd", options.ProviderOptions.Authentication);
     options.ProviderOptions.DefaultAccessTokenScopes.Add(builder.Configuration.GetSection("ServerApi")["Scopes"]);
+    options.ProviderOptions.LoginMode = "redirect"; // ⬅️ 既定は "popup"
 });
 
 await builder.Build().RunAsync();
