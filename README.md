@@ -13,3 +13,9 @@
   * [ASP\.NET Core Blazor Server アプリをセキュリティで保護する \| Microsoft Learn](https://learn.microsoft.com/ja-jp/aspnet/core/blazor/security/server/?view=aspnetcore-6.0&tabs=visual-studio)
     * [チュートリアル \- 認証に Microsoft ID プラットフォームを使用する Blazor Server アプリを作成する \- Microsoft Entra \| Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/active-directory/develop/tutorial-blazor-server)
 
+## やってみた
+
+* [Blazor WebAssembly(Standalone)アプリでの認証・認可](src/blazorwasm-standalone-singleOrg/README.md)
+* [Blazor WebAssembly(Hosted)アプリでの認証・認可](src/blazorwasm-hosted-singleOrg/README.md)
+* [Blazor Serverアプリでの認証・認可](src/blazorserver-singleOrg/README.md)
+
