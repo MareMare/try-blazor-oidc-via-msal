@@ -115,3 +115,31 @@ Azure portal で [Azure Active Directory] に移動し登録内容を確認し�
         options.ProviderOptions.LoginMode = "redirect"; // ⬅️ 既定は "popup"
     });
     ```
+
+## デプロイ時の注意点
+発行する際に `dotnet publish` コマンドを実行するとトリミングが実行され、デプロイしたサイトへアクセスするとエラーが発生することがあります。
+
+* `'Cannot read properties of undefined (reading 'toLowerCase')'`
+    ```
+    There was an error trying to log you in: 'Cannot read properties of undefined (reading 'toLowerCase')'
+    ```
+    上記のエラーが表示された場合は `Microsoft.Authentication.WebAssembly.Msal` がトリムされている可能性があるので `*.csproj` に以下を追加することで回避できます。
+    ```xml
+    <ItemGroup>
+      <TrimmerRootAssembly Include="Microsoft.Authentication.WebAssembly.Msal" />
+    </ItemGroup>    
+    ```
+    * https://github.com/dotnet/aspnetcore/issues/38082#issuecomment-1072762015
+* `'"undefined" is not valid JSON'`
+    ```
+    There was an error trying to log you in: '"undefined" is not valid JSON'
+    ```
+    上記のエラーが表示された場合は `Microsoft.AspNetCore.Components.WebAssembly.Authentication` がトリムされている可能性があるので `*.csproj` に以下を追加することで回避できます。
+    ```xml
+    <ItemGroup>
+      <TrimmerRootAssembly Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" />
+    </ItemGroup>    
+    ```
+    * https://github.com/dotnet/aspnetcore/issues/44981#issue-1442616167
+    * https://github.com/dotnet/aspnetcore/issues/43293#issuecomment-1306046181
+
