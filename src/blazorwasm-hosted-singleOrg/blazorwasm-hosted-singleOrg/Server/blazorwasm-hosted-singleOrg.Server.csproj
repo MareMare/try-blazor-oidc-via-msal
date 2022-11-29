@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.8" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.25.9" />
   </ItemGroup>
 
   <ItemGroup>
