@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
-    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="2.16.0" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="2.16.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,8 +23,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.1" NoWarn="NU1605" />
-    <PackageReference Include="Microsoft.Identity.Web" Version="2.16.0" />
-    <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.16.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.16.1" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.16.1" />
   </ItemGroup>
 
 </Project>
